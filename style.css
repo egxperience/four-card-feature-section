@@ -1,0 +1,33 @@
+/* 
+https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK/hub/four-card-feature-section-FOdK79NDv
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 8px;
+    width:80%;
+}
+
+/* Head section */
+.head{
+    text-align: center;
+}
+
+.head h1{
+    font-weight: 200;
+}
+
+.head h2{
+    font-weight: 600;
+}
